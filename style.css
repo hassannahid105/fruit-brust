@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+.back-first {
+  background-color: #f85559;
+}
+
+.text-primary {
+  color: #121212;
+}
+.text-secondary {
+  color: #fff;
+}
