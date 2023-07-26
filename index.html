@@ -35,6 +35,12 @@
         },
       };
     </script>
+    <!-- new css -->
+    <style>
+      .color-black{
+        color: #121212;
+      }
+    </style>
   </head>
   <body class="mb-96">
     <!-- ! header  -->
@@ -75,7 +81,7 @@
             </div>
             <div class="navbar hidden lg:flex lg:texl-base">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
+                <li class=""><a>Home</a></li>
                 <li><a>About US</a></li>
                 <li><a>Shop</a></li>
                 <li><a>All Furit</a></li>
@@ -362,57 +368,96 @@
         >
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-white">
-            <div class="">
+            <div class="text-center">
               <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
-              <p class="mb-5">
+              <p class="mb-12 mt-5 lg:max-w-[60%] mx-auto">
                 Contrary to popular belief, is not simply random text. It has
                 roots in a piece of classical Latin literature from 45 BC,
                 making it over 2000 years old.
               </p>
               <!-- team pic -->
-              <div class="grid grid-cols-4">
+              <div class="grid grid-cols-4 justify-center items-end">
                 <div>
-                  <img class="mask mask-circle" src="/images/member1.png" />
-                  <p>Awlad Hossain</p>
-                  <p>Fruits Expert</p>
+                  <img
+                    class="mask mask-circle mx-auto mb-8"
+                    src="/images/member1.png"
+                  />
+                  <p class="text-2xl mb-2">Awlad Hossain</p>
+                  <p class="mb-2">Fruits Expert</p>
                   <!-- icon -->
-                  <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                  <div class="flex justify-center gap-1">
+                    <i
+                      class="fa-brands fa-facebook text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
                   </div>
                 </div>
+                <!-- pic 2 -->
                 <div>
-                  <img class="mask mask-circle" src="/images/member1.png" />
-                  <p>Awlad Hossain</p>
-                  <p>Fruits Expert</p>
+                  <img
+                    class="mask mask-circle mx-auto mb-8"
+                    src="/images/member2.png"
+                  />
+                  <p class="text-2xl mb-2">Safia Chowdhury</p>
+                  <p class="mb-2">Fruits Expert</p>
                   <!-- icon -->
-                  <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                  <div class="flex justify-center gap-1">
+                    <i
+                      class="fa-brands fa-facebook text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
                   </div>
                 </div>
+                <!-- pic 3 -->
                 <div>
-                  <img class="mask mask-circle" src="/images/member1.png" />
-                  <p>Awlad Hossain</p>
-                  <p>Fruits Expert</p>
+                  <img
+                    class="mask mask-circle mx-auto mb-8"
+                    src="/images/member3.png"
+                  />
+                  <p class="text-2xl mb-2">Rokib Hossain</p>
+                  <p class="mb-2">Fruits Expert</p>
                   <!-- icon -->
-                  <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                  <div class="flex justify-center gap-1">
+                    <i
+                      class="fa-brands fa-facebook text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
                   </div>
                 </div>
+                <!-- pic 4 -->
                 <div>
-                  <img class="mask mask-circle" src="/images/member1.png" />
-                  <p>Awlad Hossain</p>
-                  <p>Fruits Expert</p>
+                  <img
+                    class="mask mask-circle mx-auto mb-8"
+                    src="/images/member1.png"
+                  />
+                  <p class="text-2xl mb-2">Chaity</p>
+                  <p class="mb-2">Fruits Expert</p>
                   <!-- icon -->
-                  <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                  <div class="flex justify-center gap-1">
+                    <i
+                      class="fa-brands fa-facebook text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white bg-[#F85559] p-3 rounded-full"
+                    ></i>
                   </div>
                 </div>
               </div>
@@ -421,5 +466,48 @@
         </div>
       </section>
     </main>
+    <footer
+      class="footer footer-center py-32 bg-black text-white lg:row-gap-96"
+    >
+      <div class="">
+        <a class="lg:text-3xl"
+          ><img src="./images/logo.png" alt="" class="w-12 inline" /> Fruit
+          Burst</a
+        >
+      </div>
+      <!-- primay link -->
+      <div>
+        <div class="lg:flex lg:texl-base">
+          <ul class="flex justify-center items-center gap-3 px-1">
+            <li><a>Home</a></li>
+            <li><a>About US</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Furit</a></li>
+            <li><a>Support</a></li>
+            <li><a>My Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--social icon link  -->
+      <div>
+        <div class="grid grid-flow-col gap-4">
+            <i
+              class="fa-brands fa-facebook text-white text-4xl"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-white text-4xl"
+            ></i>
+            <i
+              class="fa-brands fa-twitter text-white text-4xl"
+            ></i>
+            <i class="fa-brands fa-youtube text-white text-4xl"></i>
+            <i class="fa-brands fa-linkedin text-white text-4xl"></i>
+            <i class="fa-brands fa-snapchat text-white text-4xl"></i>
+        </div>
+        <div class="text-gray-600 mt-5">
+          <p>Copyright © 2023 - All right reserved</p>
+        </div>
+    </footer>
   </body>
 </html>
+<!-- <p>Copyright © 2023 - All right reserved</p> -->
