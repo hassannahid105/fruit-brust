@@ -3,7 +3,153 @@
 <main>
   <!-- !Deal of the day -->
   <!-- container  -->
-
+  <section class="max-w-screen-xl md:mx-auto mx-7 my-7 lg:my-40">
+    <!-- header -->
+    <div class="flex justify-between items-center mb-12 gap-5">
+      <div>
+        <h2 class="text-5xl font-extrabold color-black mb-4 lg:mb-6">
+          Deal of the day
+        </h2>
+        <p class="color-gray lg:max-w-[60%]">
+          Contrary to popular belief, is not simply random text. It has roots in
+          a piece of classical Latin literature from 45 BC, making it over 2000
+          years old.
+        </p>
+      </div>
+      <div>
+        <div class="flex gap-5">
+          <div>
+            <span
+              class="countdown font-mono font-extrabold text-5xl color-black"
+            >
+              <span style="--value: 15"></span>
+            </span>
+            days
+          </div>
+          <div class="relative top-3 -left-2">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div class="">
+            <span
+              class="countdown font-mono font-extrabold text-5xl color-black"
+            >
+              <span style="--value: 10"></span>
+            </span>
+            hours
+          </div>
+          <div class="relative top-3 -left-2">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div>
+            <span
+              class="countdown font-mono font-extrabold text-5xl color-black"
+            >
+              <span style="--value: 24"></span>
+            </span>
+            min
+          </div>
+          <div class="relative top-3 -left-2">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div>
+            <span
+              class="countdown font-mono font-extrabold text-5xl color-black"
+            >
+              <span style="--value: 54"></span>
+            </span>
+            sec
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card design fruit -->
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <!-- card 1 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit6.png " alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center color-black">
+          <h2 class="card-title font-bold">12.90$ - 18.85$</h2>
+          <p class="color-gray">Apples</p>
+          <div>
+            <i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+          </div>
+          <div class="card-actions">
+            <button class="btn">Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit7.png " alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title font-bold color-black">12.90$ - 18.85$</h2>
+          <p class="color-gray">Orange</p>
+          <div>
+            <i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+          </div>
+          <div class="card-actions">
+            <button class="btn">Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit8.png " alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title font-bold color-black">12.90$ - 18.85$</h2>
+          <p class="color-gray">Red Dragon</p>
+          <div>
+            <i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+          </div>
+          <div class="card-actions">
+            <button class="btn">Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit9.png " alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title font-bold color-black">12.90$ - 18.85$</h2>
+          <p class="color-gray">Banana</p>
+          <div>
+            <i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-solid fa-star main-tx"></i
+            ><i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+            <i class="fa-regular fa-star main-tx"></i>
+          </div>
+          <div class="card-actions">
+            <button class="btn">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- last button -->
+    <div class="text-center mt-10 lg:mt-20">
+      <button class="btn main-bc text-white">Shop All</button>
+    </div>
+  </section>
   <!-- temp section  -->
   <!-- ! Meet the team   -->
   <section class="max-w-screen-xl md:mx-auto mx-7 my-7 lg:my-40">
@@ -24,12 +170,12 @@
           </p>
           <!-- team pic -->
           <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-end"
+            class="grid grid-cols-1 gap-6 lg:grid-cols-4 justify-center items-end"
           >
             <div>
               <img
                 class="mask mask-circle mx-auto mb-8"
-                src="./images/member1.png"
+                src="/images/member1.png"
               />
               <p class="text-2xl mb-2 font-bold">Awlad Hossain</p>
               <p class="mb-2 font-medium">Fruits Expert</p>
@@ -50,7 +196,7 @@
             <div>
               <img
                 class="mask mask-circle mx-auto mb-4 lg:mb-8"
-                src="./images/member2.png"
+                src="/images/member2.png"
               />
               <p class="text-2xl mb-2 font-bold">Safia Chowdhury</p>
               <p class="mb-2 font-medium">Fruits Expert</p>
