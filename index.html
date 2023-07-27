@@ -60,7 +60,7 @@
       }
     </style>
   </head>
-  <body class="mb-96 font-family">
+  <body class="font-family">
     <!-- ! header section  -->
     <header class="px-4">
       <!-- ! navbar start -->
@@ -103,10 +103,10 @@
             <!-- *drop down medium and learge devices -->
             <div class="navbar hidden md:flex md:texl-base font-500">
               <ul class="menu menu-horizontal px-1 font-500">
-                <li class=""><a class="">Home</a></li>
-                <li><a>About US</a></li>
-                <li><a>Shop</a></li>
-                <li><a>All Furit</a></li>
+                <li><a class="hover:bg-white">Home</a></li>
+                <li><a class="hover:bg-white">About US</a></li>
+                <li><a class="hover:bg-white">Shop</a></li>
+                <li><a class="hover:bg-white">All Furit</a></li>
               </ul>
             </div>
           </div>
@@ -145,14 +145,16 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-white">
                 <div>
-                  <h1 class="mb-5 text-6xl font-700">
+                  <h1 class="mb-5 text-3xl lg:text-6xl font-700">
                     Exotic tastes at your <br />
                     doorstep
                   </h1>
-                  <p class="mb-5 text-xl font-500">
+                  <p class="mb-5 text-lg lg:text-xl font-500">
                     We supply highly quality organic products
                   </p>
-                  <button class="btn bg-[#F85559] border-0 text-white">
+                  <button
+                    class="btn bg-[#F85559] border-0 text-white hover:bg-black"
+                  >
                     Shop Now
                   </button>
                 </div>
@@ -174,11 +176,11 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="text-center text-white">
                 <div>
-                  <h1 class="mb-5 text-6xl font-700">
+                  <h1 class="mb-5 text-3xl lg:text-6xl font-700">
                     Exotic tastes at your <br />
                     doorstep
                   </h1>
-                  <p class="mb-5 text-xl font-500">
+                  <p class="mb-5 text-lg lg:text-xl font-500">
                     We supply highly quality organic products
                   </p>
                   <button class="btn bg-[#F85559] border-0 text-white">
@@ -203,11 +205,11 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-white">
                 <div>
-                  <h1 class="mb-5 text-6xl font-700">
+                  <h1 class="mb-5 text-3xl lg:text-6xl font-700">
                     Exotic tastes at your <br />
                     doorstep
                   </h1>
-                  <p class="mb-5 text-xl font-500">
+                  <p class="mb-5 text-xl lg:text-xl font-500">
                     We supply highly quality organic products
                   </p>
                   <button class="btn bg-[#F85559] border-0 text-white">
@@ -232,11 +234,11 @@
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content text-center text-white">
                 <div>
-                  <h1 class="mb-5 text-6xl font-700">
+                  <h1 class="mb-5 text-3xl lg:text-6xl font-700">
                     Exotic tastes at your <br />
                     doorstep
                   </h1>
-                  <p class="mb-5 text-xl font-500">
+                  <p class="mb-5 text-lg lg:text-xl font-500">
                     We supply highly quality organic products
                   </p>
                   <button class="btn bg-[#F85559] border-0 text-white">
@@ -296,12 +298,14 @@
     <main class="">
       <!-- !Deal of the day    -->
       <section class="max-w-screen-xl lg:mx-auto md:mx-10 mx-7 my-7 lg:my-40">
-        <!-- header deal of day -->
+        <!--  deal of day -->
         <div
           class="flex flex-col md:flex-row md:justify-between items-center mb-6 lg:mb-12 gap-5"
         >
           <div>
-            <h2 class="text-5xl font-extrabold color-black mb-4 lg:mb-6">
+            <h2
+              class="text-3xl lg:text-6xl font-extrabold color-black mb-4 lg:mb-6"
+            >
               Deal of the day
             </h2>
             <p class="color-gray lg:max-w-[60%]">
@@ -618,7 +622,9 @@
         </div>
         <!-- last button -->
         <div class="text-center mt-10 lg:mt-20">
-          <button class="btn main-bc text-white">Shop All</button>
+          <button class="btn main-bc text-white hover:bg-black">
+            Shop All
+          </button>
         </div>
       </section>
       <!-- ! Deal of the day   end -->
@@ -633,7 +639,7 @@
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-white">
             <div class="text-center">
-              <h1 class="mb-5 text-4xl lg:text-5xl font-extrabold first-letter">
+              <h1 class="mb-5 text-3xl lg:text-6xl font-extrabold first-letter">
                 Meet the team section
               </h1>
               <p class="mb-12 mt-5 lg:max-w-[60%] mx-auto font-medium">
@@ -736,7 +742,9 @@
       <!-- !why choose us  -->
       <section class="max-w-screen-xl md:mx-auto mx-7 my-7 lg:my-40 p-10">
         <div class="mb-12">
-          <h2 class="text-5xl font-extrabold color-black mb-6 text-center">
+          <h2
+            class="text-3xl lg:text-6xl font-extrabold color-black mb-6 text-center"
+          >
             Why Choose Us
           </h2>
           <p class="color-gray lg:max-w-[60%] m-auto font-medium text-center">
@@ -843,7 +851,7 @@
 
     <!-- !footer -->
     <footer
-      class="footer footer-center py-32 bg-black text-white lg:row-gap-96 md:my-7"
+      class="footer footer-center py-32 bg-black text-white lg:row-gap-96 md:mt-7"
     >
       <div class="">
         <a class="lg:text-3xl font-700"
